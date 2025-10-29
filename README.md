@@ -4,7 +4,7 @@
 **Figma link (screen):** https://www.figma.com/file/vTw2aaaGHreAGbtvV3rQoO/Boldo---Edgar-Allan-(Community)?node-id=48%3A377  
 **Figma project source:** https://www.figma.com/community/file/1081611224529759785
 
-**Live demo:** https://ttt-design-test.vercel.app 
+**Live demo:** https://ttt-design-test.vercel.app
 **Source code:** https://github.com/alameenbalogun/ttt-design-test.git
 
 ---
@@ -24,6 +24,7 @@ I implemented the **Boldo-Edgar Allan- HomePage V2** screen from the Figma file.
 ---
 
 ## Folder structure
+
 /src
 /components
 NavBar.tsx
@@ -39,10 +40,10 @@ globals.css
 README.md
 package.json
 
-
 ---
 
 ## Key components & reasoning
+
 - **NavBar**: semantic `<nav>` with collapsible mobile menu. Kept markup minimal to ensure keyboard navigation.
 - **HeroSection**: split into text and image; responsive stacking using `flex` and `grid` breakpoints. Buttons implemented as `<button>` with focus styles.
 - **BlogCard**: small, reusable card component used in a grid.
@@ -51,6 +52,7 @@ package.json
 ---
 
 ## Responsive approach
+
 - Use mobile-first CSS breakpoints: `sm`, `md`, `lg`.
 - Images use `w-full h-auto object-cover` so they scale naturally.
 - Grids: `grid-cols-1 sm:grid-cols-2 lg:grid-cols-3`.
@@ -59,6 +61,7 @@ package.json
 ---
 
 ## Accessibility
+
 - All images have `alt` text.
 - Buttons and links are focusable with visible outlines.
 - Semantic HTML: headings (`h1` → `hN`) used in order.
@@ -67,12 +70,14 @@ package.json
 ---
 
 ## State & data
+
 - Static data is stored in small arrays under `components` (e.g. `const services = [...]`) so components stay pure and easily testable.
 - No heavy state libraries used. For interactive parts (mobile menu), `useState` handles toggle state locally.
 
 ---
 
 ## Tradeoffs & assumptions
+
 - I prioritized layout and responsiveness over pixel-perfect typography — typography scales fluidly using rems and Tailwind utilities.
 - I used static assets instead of dynamic CMS integrations because the task only asked for UI implementation.
 - Intersection animations and complex transitions were left out to keep the deliverable small and focused; they can be added later.
@@ -80,11 +85,13 @@ package.json
 ---
 
 ## How to run locally
+
 ```bash
-git clone https://github.com/your-username/boldo-implementation
-cd boldo-implementation
+git clone https://github.com/alameenbalogun/ttt-design-test.git
+cd ttt-design-test
 npm install
 # Next.js
 npm run dev
 # or React Vite
 npm run dev
+```
