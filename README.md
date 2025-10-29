@@ -4,7 +4,7 @@
 **Figma link (screen):** https://www.figma.com/file/vTw2aaaGHreAGbtvV3rQoO/Boldo---Edgar-Allan-(Community)?node-id=48%3A377  
 **Figma project source:** https://www.figma.com/community/file/1081611224529759785
 
-**Live demo:** https://your-deploy-url.example  
+**Live demo:** https://ttt-design-test.vercel.app 
 **Source code:** https://github.com/alameenbalogun/ttt-design-test.git
 
 ---
