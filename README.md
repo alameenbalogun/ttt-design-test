@@ -5,7 +5,7 @@
 **Figma project source:** https://www.figma.com/community/file/1081611224529759785
 
 **Live demo:** https://your-deploy-url.example  
-**Source code:** https://github.com/your-username/boldo-implementation
+**Source code:** https://github.com/alameenbalogun/ttt-design-test.git
 
 ---
 
